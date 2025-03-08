@@ -654,37 +654,34 @@ video {
     padding-top: 6vw;
 }
 
-.mobile-navbar {
+.mobile-nav {
     display: none;
+    list-style: none;
     position: absolute;
     justify-content: space-between;
     align-items: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    height: 5em;
-    width: 100%;
+    width: 80%;
     top: 60%;
+    left: 50%;
+    padding: 0;
+    transform: translateX(-50%);
 }
 
-.mobile-navbar a {
+.mobile-nav a {
     display: flex;
     align-items: center;
-    margin: 0.2em 1em;
     text-decoration: none;
     font-size: 1em;
     color: black;
     white-space: nowrap;
 }
 
-.mobile-navbar li {
+.mobile-nav li {
     align-items: center;
-    margin-left: 1.3em;
-    margin-right: 1.3em;
     position: relative;
 }
 
-.mobile-navbar a:hover {
+.mobile-nav a:hover {
     background: black;
     color: white;
     cursor: cell;
@@ -700,7 +697,7 @@ video {
         display: none !important;
     }
     
-    .mobile-navbar {
+    .mobile-nav {
         display: flex;
     }
     
