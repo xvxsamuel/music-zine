@@ -176,7 +176,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    height: calc(100% - 3.5vw);
+    height: calc(100% - 3.5em);
     row-gap: 1vw;
     column-gap: 15vw;
 }
