@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>concerts++</title>
+    <link rel="icon" type="image/png" href="./favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="journal" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="./css/stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+<body>    
+    <header>
+        <nav>
+            <ul class="navbar unselectable">
+                <li><a href="index.html">index</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="albums.html">albums</a></li>
+                <li class="current-nav"><a href="concerts.html">concerts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="title-bar unselectable">
+            <div class="title-container">
+                <h1 class="title concertst">concerts</h1>
+                <span class="typing-cursor"></span>
+            </div>
+            <img class="barcode" src="./svg/barcode.svg">
+        </div>
+        <section class="content">
+            <aside class="left-container">
+                <ul class="concerts">
+                    <li data-img="./img/concerts/porter.png">
+                        <a href="porter.html">
+                            <h3>1.3.2025 - Porter Robinson & underscores</h3>
+                            <p>Melkweg, Amsterdam, NL</p>
+                        </a>
+                    </li>
+                    <li data-img="./img/concerts/jpegmafia.png">
+                        <a href="jpegmafia.html">
+                            <h3>27.1.2025 - JPEGMAFIA</h3>
+                            <p>TivoliVredenburg, Utrecht, NL</p>
+                        </a>
+                    </li>
+                    <li data-img="./img/concerts/bladee.png">
+                        <a href="bladee.html">
+                            <h3>10.12.2024 - Bladee</h3>
+                            <p>TivoliVredenburg, Utrecht, NL</p>
+                        </a>
+                    </li>
+                    <li data-img="./img/concerts/alcest.png">
+                        <a href="alcest.html">
+                            <h3>4.12.2024 - Alcest</h3>
+                            <p>Paradiso, Amsterdam, NL</p>
+                        </a>
+                    </li>
+                    <li data-img="./img/concerts/alice.png">
+                        <a href="alice.html">
+                            <h3>21.11.2024 - Alice Longyu Gao</h3>
+                            <p>Ekko, Utrecht, NL</p>
+                        </a>
+                    </li>
+                    <li data-img="./img/concerts/magbay.png">
+                        <a href="magbay.html">
+                            <h3>11.11.2024 - Magdalena Bay</h3>
+                            <p>Melkweg, Amsterdam, NL</p>
+                        </a>
+                    </li>
+                    <li data-img="./img/concerts/dannybrown.png">
+                        <a href="dannybrown.html">
+                            <h3>21.5.2024 - Danny Brown</h3>
+                            <p>Melkweg, Amsterdam, NL</p>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+            <div class="concert-img"></div>
+        </section>
+    </main>
+    <footer class="unselectable">
+        <img src="./img/qr2.png">
+        <div class="footer-middle">
+            <div id="scroll-indicator">⌄</div>
+            <div id="clock"></div>
+        </div>
+        <img src="./img/xx.png">
+    </footer>
+    <script src="./js/concerts.js"></script>
+    <script src="./js/footer.js"></script>
+</body>
+</html>

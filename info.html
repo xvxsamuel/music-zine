@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>info++</title>
+    <link rel="icon" type="image/png" href="./favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="journal" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="./css/stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+<body>    
+    <header>
+        <nav>
+            <ul class="navbar unselectable">
+                <li><a href="index.html">index</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="albums.html">albums</a></li>
+                <li><a href="concerts.html">concerts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="title-bar unselectable">
+            <div class="title-container">
+                <h1 class="title info">info</h1>
+                <span class="typing-cursor"></span>
+            </div>
+            <img class="barcode" src="./svg/barcode.svg">
+        </div>
+        <section class="content">
+            <aside class="left-container">
+                <article>
+                    <p>since i’ve already done some html and css at my old uni, i decided to challenge myself for this assignment. i decided to go with a minimalist design, not using any color at all. this created many design challenges in figuring out how to make things look good with limited tools. having to rely on shapes and negative space to create visual hierarchy was a fun challenge.</p>
+                    <p>i chose to go with a 33/33/33 layout for the pages with text because i loved the idea of having the middle portion of the screen blank with the important info on the sides, which is the exact opposite of what modern web pages do. on top of it all, i decided to make everything as responsive as possible, which was the most difficult challenge of them all, but i’m very proud of the result, especially the landing page.</p>
+                    <p><b>as for the credits:</b></p>
+                    <p>modified version of <a target="_blank" href="https://css-tip.com/corner-only-border-image/">this</a> corner effect for the album selection page</p>
+                    <p><a target="_blank" href="https://www.studytonight.com/post/build-a-simple-digital-clock-with-javascript">javascript code for the clock in the footer</a></p>
+                    <p>qr code img in the footer is an edited version of the one from <a target="_blank" href="https://eversince.gtb.sg/">this site</a></p>
+                    <p>as for the landing page, <a target="_blank" href="https://www.youtube.com/watch?v=3Z30ZJnc6VY">this</a> was used as a starting point, then painstakingly tweaked until it became this abomination after two nights of stimulants and energy drinks</p>
+                    <p>used <a target="_blank" href="https://realfavicongenerator.net">this</a> to generate favicons from my own assets for better device compatibility</p>
+                    <p><a target="_blank" href="https://bendodson.com/projects/itunes-artwork-finder/">this free tool</a> was used to retrieve album artwork</p>
+                    <p>all other images, videos, svgs, animations, design made by me with &lt;3</p>
+                </article>
+            </aside>
+            <aside class="right-container">
+            </aside>
+        </section>
+    </main>
+    <footer class="unselectable">
+        <img src="./img/qr2.png">
+        <div class="footer-middle">
+            <div id="scroll-indicator">⌄</div>
+            <div id="clock"></div>
+        </div>
+        <img src="./img/xx.png">
+    </footer>
+    <script src="./js/footer.js"></script>
+</body>
+</html>

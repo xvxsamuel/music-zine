@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="505" height="505"><svg id="SvgjsSvg1045" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 505 505">
+  <defs>
+    <style>
+      .b {
+        fill: #231f20;
+      }
+
+      .c {
+        fill: #fff;
+      }
+
+      .d {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 40px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="c" x="22.5" y="22.5" width="460" height="460"></rect>
+    <path class="b" d="M462.5,42.5v420H42.5V42.5h420M502.5,2.5H2.5v500h500V2.5h0Z"></path>
+  </g>
+  <rect class="c" x="152.5" width="200" height="505"></rect>
+  <rect class="c" y="152.5" width="505" height="200"></rect>
+  <line class="d" x1="252.5" y1="186" x2="252.5" y2="319"></line>
+  <line class="d" x1="186" y1="252.5" x2="319" y2="252.5"></line>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>

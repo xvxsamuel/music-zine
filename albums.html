@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>albums++</title>
+    <link rel="icon" type="image/png" href="./favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="journal" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="./css/stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+<body>    
+    <header>
+        <nav>
+            <ul class="navbar unselectable">
+                <li><a href="index.html">index</a></li>
+                <li><a href="about.html">about</a></li>
+                <li class="current-nav"><a href="albums.html">albums</a></li>
+                <li><a href="concerts.html">concerts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="title-bar unselectable">
+            <div class="title-container">
+                <h1 class="title albums">albums</h1>
+                <span class="typing-cursor"></span>
+            </div>
+            <img class="barcode" src="./svg/barcode.svg">
+        </div>
+        <div class="albums-content">
+            <a href="glow.html">
+                <div class="album-art glow"><h2>the microphones<br>the glow, pt.2</h2></div>
+            </a>
+            <a href="ants.html">
+                <div class="album-art ants"><h2>black country, new road<br>ants from up there</h2></div>
+            </a>
+            <a href="ecailles.html">
+                <div class="album-art ecailles"><h2>alcest<br>écailles de lune</h2></div>
+            </a>
+            <a href="brat.html">
+                <div class="album-art brat"><h2>charli xcx<br>brat</h2></div>
+            </a>
+            <a href="bird.html">
+                <div class="album-art bird"><h2>lil ugly mane<br>volcanic bird enemy and the voiced concern</h2></div>
+            </a>
+            <a href="haunt.html">
+                <div class="album-art haunt"><h2>quadeca<br>i didn't mean to haunt you</h2></div>
+            </a>
+        </div>
+    </main>
+    <footer class="unselectable">
+        <img src="./img/qr2.png">
+        <div class="footer-middle">
+            <div id="clock"></div>
+        </div>
+        <img src="./img/xx.png">
+    </footer>
+    <script src="./js/footer.js"></script>
+</body>
+</html>
