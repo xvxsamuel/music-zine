@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     const index = [
-        { id: 1, name: "about", url: "about.html" },
-        { id: 2, name: "albums", url: "albums.html" },
-        { id: 3, name: "concerts", url: "concerts.html" },
+        { id: 1, name: "about", url: "about" },
+        { id: 2, name: "albums", url: "albums" },
+        { id: 3, name: "concerts", url: "concerts" },
     ];
     const selector = document.querySelector(".selector");
     const vinyl = document.querySelector(".vinyl img");
