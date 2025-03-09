@@ -270,6 +270,7 @@ main {
 
 .album-art:hover {
     outline-offset: calc(var(--g)/-1);
+    cursor: cell;
 }
 
 .album-art:hover::before,
@@ -473,6 +474,7 @@ footer > * {
 
 .concerts li:hover * {
     color: white;
+    cursor: cell;
 }
 
 @media (max-width: 768px) {
